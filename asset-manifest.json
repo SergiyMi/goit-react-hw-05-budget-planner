@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/goit-react-hw-05-budget-planner/static/css/main.67e7994e.chunk.css",
-    "main.js": "/goit-react-hw-05-budget-planner/static/js/main.ade9273f.chunk.js",
-    "main.js.map": "/goit-react-hw-05-budget-planner/static/js/main.ade9273f.chunk.js.map",
+    "main.js": "/goit-react-hw-05-budget-planner/static/js/main.ea2847ac.chunk.js",
+    "main.js.map": "/goit-react-hw-05-budget-planner/static/js/main.ea2847ac.chunk.js.map",
     "runtime-main.js": "/goit-react-hw-05-budget-planner/static/js/runtime-main.8d80df19.js",
     "runtime-main.js.map": "/goit-react-hw-05-budget-planner/static/js/runtime-main.8d80df19.js.map",
-    "static/js/2.d72ca5af.chunk.js": "/goit-react-hw-05-budget-planner/static/js/2.d72ca5af.chunk.js",
-    "static/js/2.d72ca5af.chunk.js.map": "/goit-react-hw-05-budget-planner/static/js/2.d72ca5af.chunk.js.map",
+    "static/css/2.5dbdccff.chunk.css": "/goit-react-hw-05-budget-planner/static/css/2.5dbdccff.chunk.css",
+    "static/js/2.acafd712.chunk.js": "/goit-react-hw-05-budget-planner/static/js/2.acafd712.chunk.js",
+    "static/js/2.acafd712.chunk.js.map": "/goit-react-hw-05-budget-planner/static/js/2.acafd712.chunk.js.map",
     "index.html": "/goit-react-hw-05-budget-planner/index.html",
-    "precache-manifest.895cacb7e70d8ed721c559084d4076ea.js": "/goit-react-hw-05-budget-planner/precache-manifest.895cacb7e70d8ed721c559084d4076ea.js",
+    "precache-manifest.d589d7724b02df9a25fcf4259346ae91.js": "/goit-react-hw-05-budget-planner/precache-manifest.d589d7724b02df9a25fcf4259346ae91.js",
     "service-worker.js": "/goit-react-hw-05-budget-planner/service-worker.js",
+    "static/css/2.5dbdccff.chunk.css.map": "/goit-react-hw-05-budget-planner/static/css/2.5dbdccff.chunk.css.map",
     "static/css/main.67e7994e.chunk.css.map": "/goit-react-hw-05-budget-planner/static/css/main.67e7994e.chunk.css.map",
-    "static/js/2.d72ca5af.chunk.js.LICENSE": "/goit-react-hw-05-budget-planner/static/js/2.d72ca5af.chunk.js.LICENSE"
+    "static/js/2.acafd712.chunk.js.LICENSE": "/goit-react-hw-05-budget-planner/static/js/2.acafd712.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.8d80df19.js",
-    "static/js/2.d72ca5af.chunk.js",
+    "static/css/2.5dbdccff.chunk.css",
+    "static/js/2.acafd712.chunk.js",
     "static/css/main.67e7994e.chunk.css",
-    "static/js/main.ade9273f.chunk.js"
+    "static/js/main.ea2847ac.chunk.js"
   ]
 }
