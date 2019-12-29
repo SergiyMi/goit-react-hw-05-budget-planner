@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
+import { ToastContainer } from 'react-toastify';
 
 import BudgetForm from './BudgetForm';
 import ExpenseForm from './ExpenseForm';
@@ -47,6 +48,7 @@ const App = ({
       {expenses.length > 0 && (
         <ExpensesTable items={expenses} onRemove={removeExpense} />
       )}
+      <ToastContainer />
     </Container>
   );
 };

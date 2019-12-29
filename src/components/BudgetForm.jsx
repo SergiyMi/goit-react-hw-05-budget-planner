@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 
+import Errors from './Errors/Errors';
 import * as budgetActions from '../redux/budget/budgetActions';
 import Form from './shared/Form';
 import Label from './shared/Label';
@@ -24,7 +25,8 @@ class BudgetForm extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    if (this.state.budget < 0) {
+    if (this.state.budget < 0 || this.state.budget === '') {
+      Errors.notifyInvalid();
       return;
     }
     this.props.onSave(this.state.budget);
@@ -50,8 +52,8 @@ class BudgetForm extends Component {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onSave: (budget) => dispatch(budgetActions.saveBudget(budget)),
-  }
-}
+    onSave: budget => dispatch(budgetActions.saveBudget(budget)),
+  };
+};
 
 export default connect(null, mapDispatchToProps)(BudgetForm);

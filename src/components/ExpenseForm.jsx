@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 
+import Errors from './Errors/Errors';
 import * as expenseActions from '../redux/expense/expenseActions';
 import Form from './shared/Form';
 import Label from './shared/Label';
@@ -25,7 +26,12 @@ class ExpenseForm extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    if (this.state.name.length < 1 || this.state.amount < 1 || this.state.amount.length < 1) {
+    if (this.state.amount < 1) {
+      Errors.notifyInvalid();
+      return;
+    }
+    if (this.state.name.length < 1 || this.state.amount.length < 1) {
+      Errors.notifyError();
       return;
     }
     this.props.onSave({ ...this.state });
